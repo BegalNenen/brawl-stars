@@ -36,7 +36,6 @@
         line-height: 60px;
         /* Vertically center the text there */
         background-color: #f5f5f5;
-        margin-top: 5%;
       }
 
       a {
@@ -49,31 +48,30 @@
     </style>
   <body>
     <div class="bg-primary bg-gradient p-3 deskripsi mb-3"></div>
-    <div class="container-lg my-2">
-      <div class="row">
-        <div class="col-md-auto mx-auto">
-          <div id="total" class="alert alert-primary" role="alert"></div>
-          <div class="card shadow-sm mb-3">
-            <div class="card-body">
-              <div class="mb-3">
-                <input type="text" class="form-control" id="form1" placeholder="Cari Anggota ..." onkeyup="myFunction()">
-              </div>
-              <div class="overflow-auto">
-                <table id="daftar" class="table table-sm table-hover">
-                  <thead>
-                    <tr>
-                      <th>NAMA</th>
-                      <th>POSISI</th>
-                      <th>PIALA</th>
-                    </tr>
-                  <tbody id="data"></tbody>
-                </table>
-              </div>
-            </div>
+    <div class="container-md my-2">
+      <div id="total" class="alert alert-primary" role="alert"></div>
+      <div class="card shadow-sm mb-3">
+        <div class="card-body">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="form1" placeholder="Cari Anggota ..." onkeyup="myFunction()">
+          </div>
+          <div class="overflow-auto">
+            <table id="daftar" class="table table-sm table-hover">
+              <thead>
+                <tr>
+                  <th>NAMA</th>
+                  <th>POSISI</th>
+                  <th>PIALA</th>
+                </tr>
+              <tbody id="data"></tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
+    <!-- gua bingung sama jaraknya, jadi gw kasih ini aja -->
+    <div class="p-1"></div>
+    <!-- dikasih class Padding-1 wkwk -->
     <footer class="footer">
       <div class="container text-center">
         <span class="text-muted">Make with &hearts; by <a href="https://facebook.com/nan.phtml">Nan</a>
