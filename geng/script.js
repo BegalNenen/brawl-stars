@@ -1,4 +1,4 @@
-var input = prompt("Masukan Tagar Geng") || "GQ8QRCPP";
+var input = prompt("Masukan Tagar Geng") || "2892CGY99";
 // Menanyakan tagar geng. Jika input kosong, maka akan menampilkana tagar default (#GQ8QRCPP) 
 
 var id = input.replace("#", "");
